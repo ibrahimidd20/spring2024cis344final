@@ -11,7 +11,7 @@ class RestaurantDatabase:
                  port="3306",
                  database="restaurants_reservations",
                  user='root',
-                 password=''):
+                 password='Cisco@2024!o'):
 
         self.host = host
         self.port = port
@@ -87,3 +87,6 @@ if __name__ == "__main__":
     reservations = db.getAllReservations()
     for reservation in reservations:
         print(reservation)
+
+
+
